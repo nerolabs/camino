@@ -1,0 +1,15 @@
+{
+  "name": "camino",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An AI guide that turns relocating to a new country into a sequenced, personal, deadline-aware plan.",
+  "type": "module",
+  "scripts": {
+    "engine": "tsx core/engine.ts",
+    "interview": "tsx core/interview.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

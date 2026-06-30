@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# expo / native (once the app is scaffolded)
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.orig.*
+
+# env / secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# build artifacts
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-error.log*
